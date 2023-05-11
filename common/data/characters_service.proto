@@ -1,6 +1,8 @@
 syntax = "proto3";
 package data.characters_service;
 
+option go_package = "github.com/eqiao13/blue_archive/common/data";
+
 import "common/data/characters_client.proto";
 
 service Characters {

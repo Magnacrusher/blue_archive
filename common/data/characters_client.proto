@@ -1,6 +1,8 @@
 syntax = "proto3";
 package data.characters_client;
 
+option go_package = "github.com/eqiao13/blue_archive/common/data";
+
 message Character {
     string name = 1;
 }

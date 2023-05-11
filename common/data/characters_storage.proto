@@ -1,6 +1,8 @@
 syntax = "proto3";
 package data.characters_storage;
 
+option go_package = "github.com/eqiao13/blue_archive/common/data";
+
 message Character {
     int32 id = 1;
     string name = 2;

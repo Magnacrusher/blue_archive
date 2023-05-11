@@ -15,3 +15,6 @@ This project is a fan-developed page for the game Blue Archive
 ## Getting Started
 
 + Install [bazelisk](https://github.com/bazelbuild/bazelisk#installation)
+ + Helpful commands
+  + Find all buildable targets in a path: `bazelisk query "//common/data:all"`
+  + Build a target
